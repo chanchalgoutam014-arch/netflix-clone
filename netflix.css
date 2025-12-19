@@ -5,37 +5,71 @@ body {
 
 .main {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/29b665f6-0a62-4745-b9c2-f617fb7eadc6/web/IN-en-20251208-TRIFECTA-perspective_c78aea89-8f13-4e2c-ba7a-f9b40f53bf8c_medium.jpg");
-    height: 80vh;
     background-position: center center;
-    position: relative;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    position: relative;
 }
 
 .main .box {
     height: 80vh;
     width: 100%;
-    opacity: 0.45;
+    opacity: 0.60;
     position: absolute;
     top: 0;
     background-color: black;
-    
+
 }
-nav{
+
+nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     max-width: 80vw;
     align-items: center;
     margin: auto;
     height: 62px;
 }
-nav img{
+
+nav img {
     height: 87px;
     width: 180px;
+    color: red;
     position: relative;
     z-index: 10;
 }
-nav button{
+
+nav button {
     position: relative;
     z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    font-family: "Netflix Sans","Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero :first-child{
+    font-size: 60px;
+    font-weight: 900;
+}
+.hero :nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero :nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+}
+.in{
+    width: 100%;
 }
