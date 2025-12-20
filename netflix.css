@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .main {
@@ -8,27 +10,29 @@ body {
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 80vh;
+    height: 100vh;
     position: relative;
 }
 
 .main .box {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     opacity: 0.60;
     position: absolute;
+    display: flex;
+    justify-items: center;
+    align-items: center;
     top: 0;
     background-color: black;
 
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
     max-width: 80vw;
-    align-items: center;
+    justify-content: space-between;
+    display: flex;
     margin: auto;
+    align-items: center;
     height: 62px;
 }
 
@@ -49,27 +53,33 @@ nav button {
     height: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
     color: rgb(255, 255, 255);
     display: flex;
     z-index: 10;
-    position: absolute;
-    font-family: "Netflix Sans","Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    position: relative;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-weight: 900;
+  font-style:normal;
     flex-direction: column;
     gap: 20px;
 }
 
-.hero :first-child{
-    font-size: 60px;
+.hero> :first-child {
+    font-size: 55px;
     font-weight: 900;
 }
-.hero :nth-child(2){
+
+.hero> :nth-child(2) {
     font-size: 20px;
     font-weight: 500;
 }
-.hero :nth-child(3){
+
+.hero> :nth-child(3) {
     font-size: 16px;
     font-weight: 400;
 }
-.in{
+
+.in {
     width: 100%;
 }
