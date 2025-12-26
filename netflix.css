@@ -86,10 +86,14 @@ nav button {
 }
 
 .sepration {
-    height: 10px;
-    background-color: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    height: 5px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    position: relative;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-radius: inherit;
+    margin-top: -1.50rem;
 }
-
 .btn {
     padding: 5px 35px;
     color: white;
@@ -149,4 +153,20 @@ nav button {
     margin: 0;
     overflow-x: scroll; 
     overflow-y: visible;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+ul li{
+    padding: 0.5rem 1.375rem;
+    border-style: solid;
+}
+li img{
+    height: 252px;
+    width: 180px;
+    border-radius: 8px;
 }
