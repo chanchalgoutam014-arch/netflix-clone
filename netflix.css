@@ -149,8 +149,7 @@ nav button {
 .containor {
     position: relative;
     display: flex;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 1000px;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -160,6 +159,41 @@ nav button {
     overflow-x: scroll; 
     overflow-y: visible;
 }
+section{
+    padding: 0 9.25rem;
+    background-color: black;
+}
+.scroll-btn{
+    height: 7.5rem;
+    width: 1.5rem;
+    position:sticky;
+    border-radius: 0.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.click{
+    position: absolute;
+    height: 100%;
+    border: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 3;
+    background: rgb(0, 0, 0);
+    right: 0px;
+    padding-left: 0.75rem;
+    transition: transform 400ms ease-in-out;
+}
+
 ul{
     display: flex;
     justify-content: center;
@@ -170,6 +204,7 @@ ul{
 ul li{
     padding: 0.5rem 1.375rem;
     border-style: solid;
+    list-style-type: armenian;
 }
 li img{
     height: 252px;
