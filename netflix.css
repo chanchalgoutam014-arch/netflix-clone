@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 .main {
@@ -156,8 +157,8 @@ nav button {
     flex-direction: row;
     height: 400px;
     margin: 0;
-    overflow-x: scroll; 
-    overflow-y: visible;
+    overflow-x: hidden; 
+    overflow-y: hidden;
 }
 section{
     padding: 0 9.25rem;
@@ -179,7 +180,7 @@ section{
     cursor: pointer;
 }
 .click{
-    position: absolute;
+    position: relative;
     height: 100%;
     border: none;
     display: flex;
@@ -214,4 +215,33 @@ li img{
 }
 img:hover{
     transform : scale(1.05);
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    align-items:start;
+}
+h2{
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+.temp{
+    height: 25vh;
+    width: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    display: flex;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    margin-top: 12px;
+    margin-left: 16px;
+    padding: 0 9.25rem;
 }
