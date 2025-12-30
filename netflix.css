@@ -7,12 +7,13 @@ body {
 }
 
 .main {
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/6d631aa6-567d-46ef-a644-b5b00e4334d2/web/IN-en-20251215-TRIFECTA-perspective_f1cab02a-e42b-4913-a7d9-c5fe0f94f68d_large.jpg");
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/6d631aa6-567d-46ef-a644-b5b00e4334d2/web/IN-en-20251215-TRIFECTA-perspective_f1cab02a-e42b-4913-a7d9-c5fe0f94f68d_large.jpg);
     background-position: center center;
-    
-    background-size: max(1700px, 100vw);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0 auto;
+    max-width: 1800px;
     position: relative;
 }
 
@@ -150,15 +151,12 @@ nav button {
 .containor {
     position: relative;
     display: flex;
-    padding-left: 1000px;
     justify-content: center;
     align-items: center;
     background-color: black;
     flex-direction: row;
     height: 400px;
     margin: 0;
-    overflow-x: hidden; 
-    overflow-y: hidden;
 }
 section{
     padding: 0 9.25rem;
@@ -197,10 +195,12 @@ section{
 
 ul{
     display: flex;
-    justify-content: center;
     align-items: center;
     position: relative;
-
+    flex-direction: row;
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: visible;
 }
 ul li{
     padding: 0.5rem 1.375rem;
@@ -229,19 +229,12 @@ h2{
     padding: 10px;
     background-color: black;
 }
-.temp{
-    height: 25vh;
-    width: 1vw;
+.cont {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    height: 189px;
     border-radius: 5px;
-    border: 0px;
-    display: flex;
-    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
-    margin-top: 12px;
-    margin-left: 16px;
-    padding: 0 9.25rem;
+    gap: 8px;
+}
+.tem{
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
 }
