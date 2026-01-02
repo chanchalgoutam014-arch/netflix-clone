@@ -114,11 +114,11 @@ nav button {
 .btn-red-sm {
     background: rgb(229, 9, 20);
     color: white;
-    padding: 13px 30px;
+    padding: 14px 34px;
     font-family: "Karla","Segoe UI",Roboto, Ubuntu, sans-serif;
     font-size: 24px;
     border-radius: 5px;
-    margin-left: 8px;
+    margin-left: 9px;
     border-style: solid;
     border: 0px;
     align-items: center;
@@ -140,7 +140,7 @@ nav button {
 }
 
 .main input {
-    padding: 17px 155px 18px 14px;
+    padding: 20px 155px 18px 14px;
     font-size: 16px;
     border-radius: 4px;
     color: white;
@@ -282,4 +282,25 @@ img:hover{
     font-size: 25px;
     text-align: left;
     padding: 20px;
+}
+.ragister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.ragister input{
+    padding: 18px 347px 18px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+h3{
+    margin-top: 70px;
+    display: flex;
+    font-size: 16px;
+    font-family:"Karla","Segoe UI",Roboto, Ubuntu, sans-serif;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    justify-content:center;
 }
